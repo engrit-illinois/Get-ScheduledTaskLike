@@ -10,11 +10,6 @@ The data is more or less duplicated because it is gathered in two ways: via `Get
 1. Download `Get-ScheduledTaskLike.psm1` to the appropriate subdirectory of your PowerShell [modules directory](https://github.com/engrit-illinois/how-to-install-a-custom-powershell-module).
 2. Run it using the examples and parameter documentation below.
 
-# Examples
-
-### WIP
-WIP
-
 # Parameters
 
 ### -ComputerName [string[]]
