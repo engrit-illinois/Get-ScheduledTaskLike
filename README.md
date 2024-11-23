@@ -32,10 +32,11 @@ A wildcard query against which to match task names. Only tasks with names which 
 The full task name including its path (within the folder structure of Task Scheduler) will be queried against.  
 Use an asterisk (`*`) as a wildcard.  
 
-### -Csv \<string\>
+### -CsvDir \<string\>
 Required string.  
-The full path of a CSV file to output resulting data to.  
+The directory where the output CSV file will be created.  
 If omitted, no CSV will be created.  
+The file will be named like `Get-ScheduledTaskLike_<timestamp>.csv`.  
 
 ### -ThrottleLimit [int]
 Optional integer.  
